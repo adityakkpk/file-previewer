@@ -36,7 +36,6 @@ const FileUploadPreview = () => {
     // upload delay
     await new Promise(resolve => setTimeout(resolve, 2000));
 
-    // Image manipulation API integration (example with a placeholder API)
     if (fileType.startsWith('image/')) {
       try {
         const formData = new FormData();
